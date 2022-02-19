@@ -1,3 +1,5 @@
+import { readFile } from 'fs/promises';
+
 /**
      * Requires a JSON.
      * @param {string} path
