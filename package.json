@@ -2,12 +2,18 @@
   "name": "resolve-json",
   "version": "1.0.3",
   "description": "A simple function that can import JSONs",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Test\""
   },
   "author": "upsided",
   "license": "MIT",
   "type": "module",
-  "keywords": ["json", "upsided"]
+  "keywords": [
+    "json",
+    "upsided"
+  ],
+  "dependencies": {
+    "@types/node": "^17.0.21"
+  }
 }
