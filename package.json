@@ -1,6 +1,6 @@
 {
   "name": "resolve-json",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "A simple function that can import JSONs",
   "main": "dist/index.js",
   "scripts": {
