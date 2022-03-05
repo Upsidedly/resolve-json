@@ -6,4 +6,4 @@ import { readFile } from 'fs/promises';
      * The path of the JSON file.
      * @returns {{[key: string]: any}} JSON or provides error
      */
-export default async (path: string) => JSON.parse(await readFile(path, 'utf8'))
+export default async (path: string) => JSON.parse(await readFile(path, 'utf8')) // Gets as string then parses to obj
